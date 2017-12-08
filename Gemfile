@@ -7,6 +7,11 @@ gem 'pg'
 gem 'puma'
 gem 'rails', '5.1.4'
 gem 'redis'
+gem 'devise'
+
+source 'https://rails-assets.org' do
+  gem 'rails-assets-plugin'
+end
 
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass'
